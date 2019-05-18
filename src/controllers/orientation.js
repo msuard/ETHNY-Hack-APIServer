@@ -1,10 +1,11 @@
 const Orientation = require('../models/orientation');
-exports.saveDataPoint = async function(shippingId, timestamp, orientation){
+exports.saveDataPoint = async function(shippingId, timestamp, orientation, timestampEphemeralKey, orientationEphemeralKey){
   return await Orientation.collection.insertOne({
     shippingId,
     timestamp,
     orientation,
-
+    timestampEphemeralKey,
+    orientationEphemeralKey
   })
 };
 
