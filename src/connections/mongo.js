@@ -8,6 +8,7 @@ class MongoService {
 
   constructor(config, on_connection_open) {
     const {url} = config;
+    console.log(url)
     mongoose.connect(url, { useNewUrlParser: true });
     this.client = mongoose.connection;
 
