@@ -12,3 +12,16 @@ exports.getDataPoints = async function(shippingId){
     shippingId
   })
 };
+
+exports.getShippingIdsList = async function(shippingId){
+  const result = await Orientation.find({})
+  let shippingIds = {};
+  result.forEach((item)=> {
+    if(!shippingIds[item.shippingId]){
+      shippingIds[item.shippingId] = true;
+    }
+  });
+
+  return Object.keys(shippingIds);
+
+};

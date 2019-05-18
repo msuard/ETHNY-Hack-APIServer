@@ -18,6 +18,8 @@ class Service {
 
     try{
 
+      return await OrientationController.getShippingIdsList();
+
 
     } catch(e){
       throw(e)
