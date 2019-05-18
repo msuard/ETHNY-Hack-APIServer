@@ -1,4 +1,4 @@
-const OrientationController = require('../../controllers/orientation')
+const OrientationController = require('../../controllers/orientation');
 
 class Service {
 
