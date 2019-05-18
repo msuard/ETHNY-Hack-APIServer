@@ -1,3 +1,5 @@
+const OrientationController = require('../../controllers/orientation')
+
 class Service {
 
   constructor (app, options) {
@@ -6,7 +8,9 @@ class Service {
 
   }
 
-  async create(params) {
+  async create(data, params) {
+
+    return await OrientationController.saveDataPoint(data.shippingId, data.timestamp, data.orientation)
 
   }
 
