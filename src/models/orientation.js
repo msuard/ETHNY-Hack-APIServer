@@ -5,7 +5,10 @@ const Schema = mongoose.Schema;
 const exampleSchema = new Schema({
   shippingId: String,
   timestamp: Object,
-  orientation: Object
+  orientation: Object,
+  timestampEphemeralKey: Object,
+  orientationEphemeralKey: Object
+
 });
 
 const Orientation = mongoose.model('Orientation', exampleSchema, 'orientation');
