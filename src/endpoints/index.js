@@ -1,5 +1,5 @@
-const example = require('./orientation/orientation.class');
+const orientation = require('./orientation/orientation.service');
 
 module.exports = function (app) {
-  app.configure(example);
+  app.configure(orientation);
 };

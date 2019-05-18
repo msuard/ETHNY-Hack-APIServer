@@ -14,6 +14,30 @@ class Service {
 
   }
 
+  async find(params) {
+
+    try{
+
+
+    } catch(e){
+      throw(e)
+    }
+
+  }
+
+  async get(id, params) {
+
+    try {
+      return await OrientationController.getDataPoints(id);
+
+
+    } catch(e){
+      throw(e)
+    }
+
+  }
+
+
 }
 
 module.exports = function (app, options) {
