@@ -10,7 +10,13 @@ class Service {
 
   async create(data, params) {
 
-    return await OrientationController.saveDataPoint(data.shippingId, data.timestamp, data.orientation)
+    return await OrientationController.saveDataPoint(
+      data.shippingId,
+      data.timestamp,
+      data.orientation,
+      data.timestampEphemeralKey,
+      data.orientationEphemeralKey
+    )
 
   }
 
