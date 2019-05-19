@@ -23,7 +23,7 @@ class Service {
       data.orientationEphemeralKey.c2
     ]);
 
-/*
+
     return await OrientationController.saveDataPoint(
       data.shippingId,
       data.timestamp,
@@ -31,7 +31,7 @@ class Service {
       data.timestampEphemeralKey,
       data.orientationEphemeralKey
     )
-*/
+
   }
 
   async find(params) {
