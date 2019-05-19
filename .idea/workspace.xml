@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80ab8948-9b22-40a1-8e58-ccc53208e759" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/connections/web3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contracts/ZkSensors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contracts/abi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/sha256.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/development.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/endpoints/orientation/orientation.class.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpoints/orientation/orientation.class.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contracts/ZkSensors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/contracts/ZkSensors.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/connections/web3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="801">
-              <caret line="68" column="3" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="68" selection-end-column="3" />
+            <state relative-caret-position="495">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -96,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/contracts/ZkSensors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+            <state relative-caret-position="30">
+              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -133,15 +124,15 @@
         <option value="$PROJECT_DIR$/config/development.json" />
         <option value="$PROJECT_DIR$/src/contracts/abi.js" />
         <option value="$PROJECT_DIR$/src/endpoints/orientation/orientation.class.js" />
-        <option value="$PROJECT_DIR$/src/contracts/ZkSensors.js" />
         <option value="$PROJECT_DIR$/src/connections/web3.js" />
+        <option value="$PROJECT_DIR$/src/contracts/ZkSensors.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="970" />
+    <option name="height" value="969" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -171,6 +162,12 @@
               <item name="feathers-template" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="connections" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="feathers-template" type="b2602c69:ProjectViewProjectNode" />
+              <item name="feathers-template" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="contracts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="feathers-template" type="b2602c69:ProjectViewProjectNode" />
@@ -269,15 +266,15 @@
       <option name="presentableId" value="Default" />
       <updated>1558200615507</updated>
       <workItem from="1558200617162" duration="12087000" />
-      <workItem from="1558234851351" duration="1198000" />
+      <workItem from="1558234851351" duration="1750000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13285000" />
+    <option name="totallyTimeSpent" value="13837000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="969" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943116" visible="true" weight="0.24954791" />
@@ -353,13 +350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/development.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -395,17 +385,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contracts/ZkSensors.js">
+    <entry file="file://$PROJECT_DIR$/src/connections/web3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="56" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        <state relative-caret-position="495">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/connections/web3.js">
+    <entry file="file://$PROJECT_DIR$/config/development.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="68" column="3" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="68" selection-end-column="3" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contracts/ZkSensors.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>
