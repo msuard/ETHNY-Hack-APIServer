@@ -14,12 +14,13 @@ const channels = require('./channels');
 
 // connections
 const mongo = require('./connections/mongo');
+const web3 = require('./connections/web3');
 
 const app = express(feathers());
 
 // Load app configuration
 app.configure(configuration());
-
+app.configure(web3());
 // Enable security, CORS, compression, favicon and body parsing
 app.use(helmet());
 app.use(cors());
@@ -31,6 +32,7 @@ app.use(express.urlencoded({ extended: true }));
 app.configure(express.rest());
 app.configure(socketio());
 app.configure(mongo());
+
 
 // Set up our services (see `services/index.js`)
 app.configure(services);
